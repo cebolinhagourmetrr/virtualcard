@@ -113,10 +113,19 @@ body {
   place-items: center;
   background: radial-gradient(
     circle at 35% 30%,
-    #f8c77f 0%,
-    var(--brand-orange) 72%
+    #723B87 0%,
+    #a562c0 72%
   );
   border: 5px solid rgba(255, 255, 255, 0.85);
+  overflow: hidden;
+}
+
+.badge-inner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: translateY(2px);
 }
 
 .badge-emoji {
