@@ -4,8 +4,8 @@ if (copyButton) {
   copyButton.addEventListener("click", async () => {
     const contactText = [
       "Cebolinha Gourmet",
-      "WhatsApp: +55 00 00000-0000",
-      "Instagram: @cebolinhagourmet",
+      "WhatsApp: +55 95 98110-5291",
+      "Instagram: @cebolinha_gourmet",
     ].join("\n");
 
     try {
